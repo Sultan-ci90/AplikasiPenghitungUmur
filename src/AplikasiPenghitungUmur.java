@@ -15,6 +15,9 @@ public class AplikasiPenghitungUmur extends javax.swing.JFrame {
     public AplikasiPenghitungUmur() {
         initComponents();
         helper = new PenghitungUmurHelper();
+        txtUmur.setEditable(false);
+        txtHariUlangTahunBerikutnya.setEditable(false);
+        txtAreaPeristiwa.setEditable(false);
     }
 
     /**
